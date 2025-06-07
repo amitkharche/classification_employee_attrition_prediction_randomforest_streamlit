@@ -6,10 +6,10 @@
 
 # 👨‍💼 Employee Attrition Prediction
 
-## 🎯 Business Use Case
+## Business Use Case
 Organizations lose valuable time and resources due to employee attrition. This project predicts which employees are likely to leave (Attrition = Yes), helping HR departments take proactive steps to retain top talent.
 
-## 🧠 Features Used
+## Features Used
 - Age
 - Department
 - Job Role
@@ -20,7 +20,7 @@ Organizations lose valuable time and resources due to employee attrition. This p
 - Years at Company
 - Overtime Status
 
-## ⚙️ What's in `model_training.py`
+## What's in `model_training.py`
 - ✅ Data Cleaning
 - ✅ Feature Selection
 - ✅ Preprocessing Setup
@@ -30,20 +30,26 @@ Organizations lose valuable time and resources due to employee attrition. This p
 - ✅ Model Saving
 - ✅ Logging via print()
 
-## 🧪 How to Use
+## How to Use
+### 1. Clone the repository
+   ```bash
+   git clone https://github.com/amitkharche/classification_employee_attrition_prediction_randomforest_streamlit.git
+   cd classification_employee_attrition_prediction_randomforest_streamlit
 
-### 1. Train the Model
+   ```
+
+### 2. Train the Model
 ```
 pip install -r requirements.txt
 python model_training.py
 ```
 
-### 2. Run Streamlit App
+### 3. Run Streamlit App
 ```
 streamlit run app.py
 ```
 
-### 3. Upload CSV File
+### 4. Upload CSV File
 - Upload employee data (same format as `employee_data.csv`)
 - View and download attrition predictions
 
@@ -55,3 +61,11 @@ streamlit run app.py
 - attrition_features.pkl
 - requirements.txt
 - README.md
+
+## 📬 Contact
+
+If you have questions or want to collaborate, feel free to connect with me on
+- [LinkedIn](https://www.linkedin.com/in/amit-kharche)  
+- [Medium](https://medium.com/@amitkharche14)  
+- [GitHub](https://github.com/amitkharche)
+
